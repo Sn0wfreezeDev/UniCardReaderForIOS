@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		11C1592322AEC23900DC0B89 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C1592222AEC23900DC0B89 /* CoreNFC.framework */; };
+		11C1592522AEEFF700DC0B89 /* NFCMiFareTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C1592422AEEFF700DC0B89 /* NFCMiFareTag.swift */; };
+		11C1592722AEF0B400DC0B89 /* MiFareModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C1592622AEF0B400DC0B89 /* MiFareModels.swift */; };
 		B41052241EC2BA04006D9146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41052231EC2BA04006D9146 /* AppDelegate.swift */; };
 		B41052291EC2BA04006D9146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41052271EC2BA04006D9146 /* Main.storyboard */; };
 		B410522E1EC2BA04006D9146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B410522C1EC2BA04006D9146 /* LaunchScreen.storyboard */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		11C1592222AEC23900DC0B89 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		11C1592422AEEFF700DC0B89 /* NFCMiFareTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCMiFareTag.swift; sourceTree = "<group>"; };
+		11C1592622AEF0B400DC0B89 /* MiFareModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiFareModels.swift; sourceTree = "<group>"; };
 		1426D16B1ED030FC0082EAE0 /* NFCTagReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = NFCTagReader.entitlements; path = ../NFCTagReader.entitlements; sourceTree = "<group>"; };
 		52D5B16E16EADE72DE620513 /* SampleCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B41052201EC2BA04006D9146 /* NFCTagReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCTagReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +85,8 @@
 				B47143DC1ECF6EC10026C5B4 /* MessagesTableViewController.swift */,
 				B47143DD1ECF6EC10026C5B4 /* MessagesTableViewController+DataSource.swift */,
 				B47143DE1ECF6EC10026C5B4 /* PayloadsTableViewController.swift */,
+				11C1592422AEEFF700DC0B89 /* NFCMiFareTag.swift */,
+				11C1592622AEF0B400DC0B89 /* MiFareModels.swift */,
 				B47143D71ECF6E260026C5B4 /* Resources */,
 			);
 			path = NFCTagReader;
@@ -196,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B47143E11ECF6EC10026C5B4 /* PayloadsTableViewController.swift in Sources */,
+				11C1592722AEF0B400DC0B89 /* MiFareModels.swift in Sources */,
+				11C1592522AEEFF700DC0B89 /* NFCMiFareTag.swift in Sources */,
 				B47143E01ECF6EC10026C5B4 /* MessagesTableViewController+DataSource.swift in Sources */,
 				B47143DF1ECF6EC10026C5B4 /* MessagesTableViewController.swift in Sources */,
 				B41052241EC2BA04006D9146 /* AppDelegate.swift in Sources */,
